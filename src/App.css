@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e9e0cf;
+  background-image: linear-gradient(145deg, #f3ecdb 0%, #e2d4bb 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Georgia', serif;
+}
+
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.app-header h1 {
+  font-size: 2.2rem;
+  color: #4a3720;
+  letter-spacing: -0.5px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+.app-header p {
+  color: #7b623c;
+  font-style: italic;
+}
+.app-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #8e744a;
+  border-top: 1px dashed #dcccaa;
+}
